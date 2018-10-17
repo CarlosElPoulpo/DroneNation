@@ -1,0 +1,102 @@
+.video-intro[poster]{
+  object-fit: cover;
+}
+
+#homepage-description{
+  h1{
+    line-height: 45px;
+    font-size: 45px;
+    font-weight: 400 !important;
+  }
+  h2{
+    line-height: 17px;
+    font-size: 17px;
+    font-weight: 200!important;
+  }
+  h1, h2{
+    font-family: Helvetica;
+    letter-spacing: 5.7px;
+    text-transform: uppercase;
+  }
+}
+
+.social-buttons {
+  a {
+    font-size: 25px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    &:first-child{
+      margin-left: 0px;
+      margin-right: 5px;
+    }
+  }
+}
+
+  .gradient-1 {
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    background: -moz-linear-gradient(45deg, rgba(0,191,143,0.8), rgba(44,83,100,0.8) 80%);
+    background: -webkit-linear-gradient(45deg, rgba(0,191,143,0.8), rgba(44,83,100,0.8) 80%);
+    background: linear-gradient(45deg, rgba(0,191,143,0.8), rgba(44,83,100,0.8) 80%);
+  }
+
+  .gradient-2 {
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    background: rgba(44,83,100,0.8);
+  }
+
+  .gradient-3 {
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    background: -moz-linear-gradient(45deg, rgba(44,83,100,0.8) 20%, rgba(121,159,12,0.8));
+    background: -webkit-linear-gradient(45deg, rgba(44,83,100,0.8) 20%, rgba(121,159,12,0.8));
+    background: linear-gradient(45deg, rgba(44,83,100,0.8) 20%, rgba(121,159,12,0.8));
+  }
+
+  .red-gradient-buttons{
+    background: rgba(44,83,100,0.8);
+  }
+
+  .blue-gradient-buttons{
+    background: rgba(0,191,143,0.8);
+  }
+
+  .green-gradient-buttons{
+    background: rgba(121,159,12,0.8);
+  }
+
+  .yellow-gradient-buttons{
+    background: rgba(44,83,100,0.8);
+  }
+
+  .image-intro{
+    height: 110%;
+  }
+
+  .video-container {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+  }
+
+  .video-container > iframe {
+    max-width: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }

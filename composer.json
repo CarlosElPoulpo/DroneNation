@@ -17,7 +17,8 @@
     "require-dev": {
         "symfony/debug-pack": "^1.0",
         "symfony/dotenv": "*",
-        "symfony/web-server-bundle": "*"
+        "symfony/web-server-bundle": "*",
+        "symfony/webpack-encore-pack": "^1.0"
     },
     "config": {
         "preferred-install": {
