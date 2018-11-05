@@ -10,13 +10,17 @@ Encore
 
     // will create public/build/app.js and public/build/app.css
     .createSharedEntry('layout', './assets/js/layout.js')
-    .addEntry('homepage', './assets/js/homepage.js')
 
+    .addEntry('website_main', './assets/website/js/website_main.js')
+    .addEntry('homepage', './assets/website/js/homepage.js')
+
+    .addEntry('app_main', './assets/app/js/app_main.js')
 
     .enableBuildNotifications()
     .autoProvidejQuery()
     .addPlugin(new CopyWebpackPlugin([
-        {from: './assets/static', to: 'static'}
+        {from: './assets/website/static', to: 'website/static'},
+        {from: './assets/app/static', to: 'app/static'}
     ]))
     .enableSassLoader()
     .enableSourceMaps(!Encore.isProduction())

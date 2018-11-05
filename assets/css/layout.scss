@@ -1,16 +1,4 @@
 html,
-body,
-header,
-.view {
-  height: 100%;
+body{
+  font-family: Helvetica;
 }
-
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 100vh;
-  }
-}
-
